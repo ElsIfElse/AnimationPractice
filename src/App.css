@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box{
+  @apply flex flex-col items-center h-full w-full justify-center
+}
+.navbtn{
+  @apply p-3 bg-blue-200 text-slate-900 text-2xl font-light rounded-md 
+}
